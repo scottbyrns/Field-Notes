@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="image_upload_options">
+		<item>Take Photo</item>
+		<item>Select photo from Gallery</item>
+	</string-array>
+</resources>

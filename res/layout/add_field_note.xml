@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="@drawable/item_background"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical">
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/add_field_note"
+			android:textColor="#000" android:layout_margin="10dip"
+			android:textStyle="bold" />
+
+        <ImageView android:id="@+id/field_note_image" android:layout_width="fill_parent"
+                      android:src="@drawable/place_holder"
+
+       		android:layout_height="100dip" android:layout_alignParentLeft="true"
+       		android:layout_alignParentTop="true" android:paddingTop="4dip"
+                android:paddingBottom="4dip"/>
+
+		<EditText android:id="@+id/field_note_textarea"
+                  android:lines="5" android:layout_centerInParent="true"
+                  android:gravity="top|left" android:inputType="textMultiLine"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:hint="@string/field_note_textarea" android:singleLine="true"
+			android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+			android:imeOptions="actionNext" />
+
+        <Button android:id="@+id/field_note_add_photo"
+                android:background="@drawable/blue_button"
+      			android:layout_width="fill_parent" android:layout_height="wrap_content"
+      			android:text="@string/add_photo" android:layout_marginLeft="10dip"
+      			android:layout_marginRight="10dip" android:layout_marginTop="10dip" />
+
+        <Button android:id="@+id/field_note_save"
+                android:background="@drawable/blue_button"
+      			android:layout_width="fill_parent" android:layout_height="wrap_content"
+      			android:text="@string/save" android:layout_marginLeft="10dip"
+      			android:layout_marginRight="10dip" android:layout_marginTop="10dip" />
+
+
+	</LinearLayout>
+</ScrollView>

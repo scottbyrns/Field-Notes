@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+
+    <ListView android:id="@+id/fieldnotelist" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:cacheColorHint="#00000000"
+        android:layout_marginBottom="72dip"
+        android:background="@drawable/item_background"
+        android:layout_alignParentTop="true"/>
+
+
+   	<LinearLayout android:id="@+id/footer"
+                     android:background="@drawable/item_background"
+   		android:layout_width="fill_parent" android:layout_height="72dip"
+   		android:orientation="horizontal" android:layout_alignParentBottom="true"
+   		android:gravity="center">
+
+           <Button android:id="@+id/add_field_note"
+                   android:background="@drawable/blue_button"
+                   android:layout_width="fill_parent" android:layout_height="wrap_content"
+                   android:text="@string/add_field_note" android:layout_marginLeft="10dip"
+                   android:layout_marginRight="10dip" android:layout_marginTop="10dip"
+                   android:layout_marginBottom="10dip"/>
+       </LinearLayout>
+
+
+</RelativeLayout>

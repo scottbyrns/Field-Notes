@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Join the backyard revolution!</string>
+    <string name="app_name">Field Notes</string>
+    <string name="app_copyright">Copyright 2012 Scott Byrns and Margaret Kelly</string>
+
+
+    <string name="loginscreen_header">Login or Register</string>
+    <string name="usernametext">Username</string>
+    <string name="passwordtext">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+
+
+    <string name="field_note_placeholder">Loading field note.</string>
+    <string name="add_photo">Add photo</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_field_note">Add a new field note</string>
+
+    <string name="save">Save</string>
+    <string name="field_note_textarea">Enter note...</string>
+
+    <string name="edit_note">Edit Note</string>
+    <string name="delete_note">Delete Note</string>
+
+    <string name="edit_field_note">Edit field note.</string>
+
+</resources>

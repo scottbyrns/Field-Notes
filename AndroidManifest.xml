@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.somegood.notes"
+          android:versionCode="1"
+          android:versionName="1.0.0">
+
+    <uses-sdk android:minSdkVersion="8"/>
+
+    <application
+            android:icon="@drawable/field_icon"
+            android:label="@string/app_name" android:name="com.somegood.notes.FieldNotesApp">
+        <activity
+                android:label="@string/app_name"
+                android:name="com.somegood.notes.activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:label="@string/app_name"
+                android:name="com.somegood.notes.activities.FieldNoteListActivity">
+        </activity>
+        <activity
+                android:label="@string/app_name"
+                android:name="com.somegood.notes.activities.FieldNoteDetailActivity">
+        </activity>
+        <activity
+                android:label="@string/app_name"
+                android:name="com.somegood.notes.activities.AddFieldNoteActivity">
+        </activity>
+        <activity
+                android:label="@string/app_name"
+                android:name="com.somegood.notes.activities.EditFieldNoteActivity">
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
